@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" fill="none">
+  <defs>
+    <radialGradient id="halo">
+      <stop stop-color="#a72643" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#a72643" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chip" x1="180" y1="160" x2="340" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4b3039"/>
+      <stop offset="1" stop-color="#242326"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Halo e trilhas da placa -->
+  <circle cx="260" cy="240" r="235" fill="url(#halo)"/>
+  <circle cx="260" cy="240" r="185" stroke="#99aab5" stroke-opacity=".16"/>
+  <circle cx="260" cy="240" r="145" stroke="#f2f0ed" stroke-opacity=".18" stroke-dasharray="2 12"/>
+  <g stroke="#f2f0ed" stroke-width="2" stroke-linejoin="round" opacity=".6">
+    <path d="M180 205H130V95H125"/>
+    <path d="M340 205H390V95H395"/>
+    <path d="M180 275H130V385H125"/>
+    <path d="M340 275H390V385H395"/>
+  </g>
+  <g stroke="#99aab5" stroke-width="1.5" opacity=".24">
+    <path d="M210 160V120H185V60M260 160V75M310 160V120H335V60"/>
+    <path d="M210 320V360H185V420M260 320V405M310 320V360H335V420"/>
+    <path d="M180 240H65M340 240H455"/>
+  </g>
+  <g fill="#f2f0ed">
+    <circle cx="130" cy="205" r="4"/>
+    <circle cx="390" cy="275" r="4"/>
+    <circle cx="260" cy="75" r="3"/>
+    <circle cx="260" cy="405" r="3"/>
+  </g>
+
+  <!-- Processador central -->
+  <g stroke="#f2f0ed" stroke-width="3" stroke-linecap="round" opacity=".65">
+    <path d="M218 151V140M246 151V140M274 151V140M302 151V140"/>
+    <path d="M218 329V340M246 329V340M274 329V340M302 329V340"/>
+    <path d="M171 198H160M171 226H160M171 254H160M171 282H160"/>
+    <path d="M349 198H360M349 226H360M349 254H360M349 282H360"/>
+  </g>
+  <rect x="171" y="151" width="178" height="178" rx="28" fill="#242326" stroke="#f2f0ed" stroke-opacity=".5"/>
+  <rect x="181" y="161" width="158" height="158" rx="20" fill="url(#chip)" stroke="#a72643" stroke-width="2"/>
+  <path d="M201 188V181H221M319 292V299H299" stroke="#f2f0ed" stroke-width="2" stroke-linecap="round"/>
+  <text x="260" y="255" text-anchor="middle" fill="#f2f0ed" font-family="Arial, sans-serif" font-size="44" font-weight="700">PAC</text>
+
+  <!-- Computador -->
+  <circle cx="85" cy="95" r="40" fill="#302b30" stroke="#817d7b"/>
+  <g stroke="#f2f0ed" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="63" y="76" width="44" height="30" rx="3"/>
+    <path d="M85 106V115M74 115H96"/>
+  </g>
+
+  <!-- Internet -->
+  <circle cx="435" cy="95" r="40" fill="#302b30" stroke="#817d7b"/>
+  <g stroke="#f2f0ed" stroke-width="2.5">
+    <circle cx="435" cy="95" r="22"/>
+    <ellipse cx="435" cy="95" rx="10" ry="22"/>
+    <path d="M413 95H457M416 84H454M416 106H454"/>
+  </g>
+
+  <!-- Ferramentas e organização -->
+  <circle cx="85" cy="385" r="40" fill="#302b30" stroke="#817d7b"/>
+  <g stroke="#f2f0ed" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="64" y="365" width="42" height="40" rx="4"/>
+    <path d="M64 376H106M78 376V405M92 376V405M64 390H106"/>
+  </g>
+
+  <!-- Inteligência artificial -->
+  <circle cx="435" cy="385" r="40" fill="#302b30" stroke="#817d7b"/>
+  <g stroke="#f2f0ed" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M432 363L438 379L454 385L438 391L432 407L426 391L410 385L426 379Z"/>
+    <path d="M453 362V374M447 368H459"/>
+  </g>
+</svg>
