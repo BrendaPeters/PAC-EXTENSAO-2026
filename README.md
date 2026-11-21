@@ -26,10 +26,7 @@ Abra o arquivo `index.html` no navegador. As atividades locais funcionam sem ins
 
 ## Elaboração
 
-ANDREI LUIS GALLIANI<br>
 BRENDA SCHLOSSER PETERS<br>
 CARLA CANALLE MUNDEL<br>
 JOSÉ VITOR MADER<br>
 NYKOLAS JOSÉ KÖPP<br>
-LUCAS MONTIMÓR SOARES BARRA<br>
-WILLIAN BONAZZOLI FOGAÇA DE MARIA
